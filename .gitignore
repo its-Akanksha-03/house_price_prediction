@@ -1,4 +1,31 @@
+# Local project files
 *.pyc
 __pycache__/
 data/
 results/*.csv
+
+# Python standard ignores
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+dist/
+build/
+*.egg
+pip-log.txt
+__pypackages__/
+
+# Jupyter
+.ipynb_checkpoints
+
+# Virtual environments
+.env
+.venv/
+venv/
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+

@@ -1,71 +1,43 @@
-\# House Price Prediction 🏠
+# House Price Prediction 🏠
 
-
-
-This project predicts house prices using machine learning models based on the \*\*King County House Sales Dataset\*\*.  
+This project predicts house prices using machine learning models based on the King County House Sales Dataset.  
 
 It demonstrates a complete workflow: data cleaning, exploratory data analysis, model training, evaluation, and visualization.
 
+# ⚙️ How to Run
 
-
-
-
-
-
-\## ⚙️ How to Run
-
-1\. Clone the repo:
+1. Clone the repo:
 
 '''bash'''
-
 git clone https://github.com/your-username/house\_price\_prediction.git
 
-
-
-2\. Install Dependencies:
+2. Install Dependencies:
 
 '''bash'''
-
 pip install -r requirements.txt
 
-
-
-3\. Run preprocessing script:
+3. Run preprocessing script:
 
 '''bash'''
-
 python scripts/data\_preprocessing.py
 
-
-
-4\. Train Models:
+4. Train Models:
 
 '''bash'''
-
 python scripts/train\_models.py
 
-
-
-5\. Generate Visualizations:
+5. Generate Visualizations:
 
 '''bash'''
-
 python scripts/visualize\_results.py
 
 
-
-📊 Models Used
-
-
+📊 # Models Used
 
 * Linear Regression
 * Decision Tree Regressor
 
-
-
-📈 Results
-
-
+📈 # Results
 
 * Linear Regression R² Score: (printed by script)
 * Decision Tree R² Score: (printed by script)
